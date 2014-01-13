@@ -90,7 +90,7 @@ if ($_SERVER['SERVER_PORT'] == 80) {
 } else {
     $protocol = 'https';
 }
-$protocol = 'http'; //force use SSL
+$protocol = 'https'; //force use SSL
 
 define('SERVER_NAME', $_SERVER['HTTP_HOST']);
 define('APP_NAME', $setting_ojm->get('app_name'));
