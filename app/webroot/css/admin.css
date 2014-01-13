@@ -1,0 +1,96 @@
+@charset "utf-8";
+* {
+    margin:0;
+    padding:0;
+}
+
+body, html{
+    background-color: #fbf9de;
+}
+
+legend {
+    color: #468847;
+}
+
+/** Layout **/
+#container {
+    width: 100%;
+}
+
+#header{
+    
+}
+
+#content{
+    clear: both;
+    overflow: auto;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content-inner{
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #DDD;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px; 
+}
+
+#footer {
+    margin-top: 10px;
+    padding: 10px 0px 10px 0px;
+    background-color: Lavender;
+    width:100%;
+    border-top: 2px solid #B40404;    
+}
+
+.navbar {
+    margin-bottom: 5px;
+}
+
+.breadcrumb {
+    padding: 8px;
+}
+
+.breadcrumb li {
+    display: inline-block;
+    text-shadow: 0 1px 0 white;
+    color: #468847;
+    font-size: 20px;
+}
+
+.breadcrumb .active {
+    color: #468847;
+}
+
+.well{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.form-actions {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list .nav-header{
+    text-shadow: none;
+}
+
+.nav-header{
+    font-size: 14px;
+    text-shadow: none;
+    background-color:#b0c4de;
+}
+.pad{
+    margin-top: 10px;
+}
+.control-label-color{
+   color:#B9B5B5;
+}
+/*#wall_post::-webkit-input-placeholder::before {
+    color:#666;
+    content:"##friend_1##  ##friend_2## ==> 友達の名前\A ##result_1## \A ##result_2## ==> 診断結果①②";
+}*/
